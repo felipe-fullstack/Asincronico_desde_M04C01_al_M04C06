@@ -63,7 +63,7 @@ alert("¡Bienvenidos! Agenda tus Tareas")
 $focusInputPrincipal.focus()
 
 //Boton agregar (+) Tarea para interactuar
-botonAgregar.addEventListener("click", function () {
+botonAgregar.addEventListener("click", () => {
     validarInput();
 })
 
